@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="parc attraction danger">
+
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/attractions.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/informations.css">
+    <link rel="stylesheet" href="styles/reservation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- Haut de page spécifique à chaque page -->
+    {{EN-TETE}}
+</head>
+<body>
+
+<!-- Header -->
+    <div class="menu">
+        <li class="connexion-menu"><a href="./identification.html">Mon compte</a></li>
+        <h2 class="titre-menu">Menu</h2>
+
+        <ul class="liste-menu">
+            <li class="item-nav"><a href="./">Accueil</a></li>
+            <li class="item-nav"><a href="./informations">Le parc</a></li> 
+            <li class="item-nav"><a href="./attractions">Nos attractions</a></li>
+            <li class="item-nav"><a href="./contact">Contact</a></li>
+            <li class="item-nav"><a href="./reservation">Réservation</a></li>
+        </ul>
+    </div>
+
+<!-- Données spécifiques à chaque page -->
+
+    <main>
+        <!-- Contenu spécifique à chaque page -->
+        {{CONTENU}}
+    </main>
+
+<!-- Footer - Version du site -->
+    <footer>JazWebsite 2021 - version 1.2</footer>
+
+</body>
+</html>
