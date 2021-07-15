@@ -18,8 +18,7 @@ const BDD = 'test'
 // Base de données Mysql
 const db = mysql.createConnection({
 host: "localhost",
-// user: "jaz8",
-// password: "F$@,ry|\KcL(hM/)/>PR!qq]9\R5~#f<{pFP(#",
+
 user: "root",
 password: "",
 database : "test"
